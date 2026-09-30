@@ -32,7 +32,8 @@ attempt, one line after. No long explanations in between.
      feedback; analyze it before the next change.
    - Report in one line: `Attempt N: X% → Y%, urgent→admin: Z`.
 4. **Stop** at whichever comes first:
-   - The goal is met (the eval exits with code 0) → final report.
+   - The goal is met (the eval exits with code 0) → final report. Don't run
+     the eval again to "confirm": every run adds a bar to the dashboard.
    - The attempts run out → an honest report of where it landed and what's
      missing.
 
