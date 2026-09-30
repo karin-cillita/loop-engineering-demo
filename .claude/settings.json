@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run eval)",
+      "Bash(npm run dashboard)",
+      "Bash(EVAL_VERBOSE=1 npm run eval)",
+      "Bash(git diff *)",
+      "Bash(node *)",
+      "Edit(src/**)",
+      "Write(src/**)"
+    ],
+    "deny": [
+      "Edit(eval/**)",
+      "Write(eval/**)",
+      "Edit(PRD.md)",
+      "Write(PRD.md)"
+    ]
+  }
+}

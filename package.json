@@ -1,0 +1,11 @@
+{
+  "name": "triage-demo",
+  "private": true,
+  "type": "module",
+  "description": "Demo: an engineering loop driven by a product goal (patient message triage)",
+  "scripts": {
+    "eval": "node eval/run-eval.mjs",
+    "reset": "bash scripts/reset.sh",
+    "dashboard": "open runs/report.html || echo 'Run npm run eval at least once first.'"
+  }
+}
